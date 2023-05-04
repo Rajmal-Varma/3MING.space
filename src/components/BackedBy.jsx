@@ -1,38 +1,33 @@
 import React from 'react'
 import Microsoft from "../assets/microsoft.png";
 import PedalStart from "../assets/pedalstart.png";
-import { ImLinkedin2, ImFacebook, ImTwitter } from "react-icons/im";
-import { FaDiscord } from "react-icons/fa";
-import { SiGmail } from "react-icons/si";
+import social1 from "../assets/Ellipse 43.png";
+import social2 from "../assets/Ellipse 38.png";
+import social3 from "../assets/Ellipse 39.png";
+import social5 from "../assets/Ellipse 41.png";
+import social4 from "../assets/Ellipse 42.png";
 
 const BackedBy = () => {
   return (
-    <div className="absolute top-[790px] z-10 px-4 mx-4 flex flex-col">
-        <h1 className="text-4xl text-white uppercase font-bold px-2 lg:text-3xl">
+    <div className=" flex flex-col">
+        <h1 className="text-3xl lg:text-4xl xl:text-[3.2rem] text-white uppercase font-bold px-1 pt-4  z-10">
           Backed By
         </h1>
-        <div className="relative flex items-center left-[-5%] md:left-[-4%]">
-          <img src={Microsoft} alt="/" className="w-[300px] h-[240px] md:w-[250px] md:h-[200px] sm:w-[200px] sm:h-[160px] lg:w-[270px] lg:h-[220px]" />
-          <img src={PedalStart} alt="/" className='md:w-[150px] lg:w-[180px]'/>
+
+
+        <div className="z-10 flex items-center ml-[-14px] xl:ml-[-26px]">
+          <img src={Microsoft} alt="/" className=" w-[200px] lg:w-[260px] xl:w-[290px]" />
+          <img src={PedalStart} alt="/" className="w-[160px] lg:w-[220px] xl:w-[260px]"/>
         </div>
 
+
         {/* social Icons */}
-        <div className="flex text-white w-full max-w-[590px] items-center md:w-[560px] sm:w-[400px] lg:w-[460px]">
-          <div className="w-16 h-16 bg-blue-600 flex items-center justify-center rounded-[50%] border-[none] mr-6 md:w-12 md:h-12 sm:w-10 sm:h-10 sm:mr-2 md:mr-2 lg:mr-2">
-            <ImLinkedin2 className=" pb-1 text-4xl md:text-3xl sm:text-2xl" />
-          </div>
-          <div className="w-16 h-16 bg-blue-300 flex items-center justify-center rounded-[50%] border-[none] mr-6 md:w-12 md:h-12 sm:w-10 sm:h-10 sm:mr-2 md:mr-2 lg:mr-2">
-            <FaDiscord className="text-4xl md:text-3xl  sm:text-2xl" />
-          </div>
-          <div className="w-16 h-16 bg-blue-700 flex items-center justify-center rounded-[50%] border-[none] mr-6 md:w-12 md:h-12 sm:w-10 sm:h-10 sm:mr-2 md:mr-2 lg:mr-2">
-            <ImFacebook className="text-4xl md:text-3xl  sm:text-2xl" />
-          </div>
-          <div className="w-16 h-16 bg-gray-500 flex items-center justify-center rounded-[50%] border-[none] mr-6 md:w-12 md:h-12 sm:w-10 sm:h-10 sm:mr-2 md:mr-2 lg:mr-2">
-            <SiGmail className="text-4xl md:text-3xl  sm:text-2xl" />
-          </div>
-          <div className="w-16 h-16 bg-blue-400 flex items-center justify-center rounded-[50%] border-[none] mr-6 md:w-12 md:h-12 sm:w-10 sm:h-10 sm:mr-2 md:mr-2 lg:mr-2">
-            <ImTwitter className="text-4xl md:text-3xl  sm:text-2xl" />
-          </div>
+        <div className="flex text-white z-10 w-[200px] h-[40px] py-2 my-2  lg:w-[350px] xl:w-[500px]">
+          <a href="" className="mx-2 "><img src={social1} alt="" className="xl:w-[60px] xl:mx-2" /></a>
+          <a href="" className="mx-1 "><img src={social2} alt="" className="xl:w-[60px] xl:mx-2"/></a>
+          <a href="" className="mx-1 "><img src={social3} alt="" className="xl:w-[60px] xl:mx-2"/></a>
+          <a href="" className="mx-1 "><img src={social4} alt="" className="xl:w-[60px] xl:mx-2"/></a>
+          <a href="" className="mx-1 "><img src={social5} alt="" className="xl:w-[60px] xl:mx-2"/></a>
         </div>
       </div>
   )

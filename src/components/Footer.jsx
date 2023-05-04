@@ -1,5 +1,5 @@
 import React from "react";
-import Logo1 from "../assets/3ming_logo.jpg";
+import Logo1 from "../assets/3ming_logo.png";
 import social1 from "../assets/Ellipse 43.png";
 import social2 from "../assets/Ellipse 38.png";
 import social3 from "../assets/Ellipse 39.png";
@@ -9,8 +9,8 @@ import social5 from "../assets/Ellipse 42.png";
 function Footer() {
   return (
     <footer className="bg-[#141414] pt-4 rounded text-center dark:text-neutral-200 lg:text-right sm:text-right">
-      <div className="mx-6  lg:font-medium   text-left justify-center align-middle">
-        <div className="grid-1 grid gap-1   grid-row-2  grid-cols-2">
+      <div className="mx-6  lg:font-medium  text-center md:text-left justify-center align-middle">
+        <div className="grid-1 grid gap-1   sm:grid-row-2   lg:grid-cols-4 md:grid-cols-2">
          
 
 <div className="flex p-2 pt-2 justify-center">
@@ -56,7 +56,7 @@ function Footer() {
           <div className="sm:flex flex-row md:hidden">
             <div className="flex flex-row space-x-4 justify-center" >
             <p className="mb-1">
-              <a href="#!" className="text-white dark:text-neutral-200">
+              <a href="#" className="text-white dark:text-neutral-200">
                 Community
               </a>
             </p>
