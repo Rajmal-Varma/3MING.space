@@ -17,20 +17,20 @@ import { FaBars, FaTimes } from "react-icons/fa";
        <div className=" w-full h-[102px] flex justify-between items-center px-6 bg-[#000000] text-white   ">
        
              {/* Hamburger */}
-         <div onClick={handleClick} className="sm:cursor-pointer z-10 justify-between md:hidden">
+         <div onClick={handleClick} className="cursor-pointer z-10 justify-between hidden">
            {!nav ? <FaBars size={40} /> : <FaTimes size={30} />}
          </div>
          <div>
-          <img src={Logo} alt="LogoImage" style={{width:'220px' }} className="ml-4 mr-20 pr-12 xl:mr-0 xl:pr-0 "/>
+          <img src={Logo} alt="LogoImage" style={{width:'220px' }} className="ml-4 "/>
          </div>
          
          {/* Menu */}
-            <ul className="md:flex flex flex-row text-xl justify-between mx-1 font-medium cursor-pointer">
-           <li className="mx-6   sm:text-lg ">Home</li>
-           <li className=" mx-6   sm:text-lg ">About</li>
-           <li className=" mx-6   sm:text-lg ">Stream</li>
-           <li className=" mx-6   sm:text-lg ">Promote</li>
-           <li className=" mx-16  sm:text-lg ">Blog</li>
+            <ul className=" flex flex-row text-xl justify-between mx-1 font-medium cursor-pointer">
+           <li className="mx-6   text-lg ">Home</li>
+           <li className=" mx-6  text-lg ">About</li>
+           <li className=" mx-6  text-lg ">Stream</li>
+           <li className=" mx-6  text-lg ">Promote</li>
+           <li className=" mx-16 text-lg ">Blog</li>
          </ul>
       
 

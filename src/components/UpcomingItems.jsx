@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const UpcomingItems = ({post}) => {
     return (
-        <div className="card2 m-1 md:card2 m-3 overflow-hidden shadow-lg">
+        <div className="card2  md:card2 m-3 overflow-hidden shadow-lg">
   <img class="card-img-top" src={post.thumbnail} alt="Sunset in the mountains" />
   <div class="px-6 py-4">
     <div class=" text-xl mb-2"><h4 className="font-bold card-title">{post.title}</h4></div>
