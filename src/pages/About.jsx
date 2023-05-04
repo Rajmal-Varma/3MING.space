@@ -56,10 +56,10 @@ const About = () => {
       <Headline />
       <Navbar />
     
-    <div className="w-full mx-auto h-[70%] xl:h-[75%] px-4 py-1">
+    <div className="w-full mx-auto h-[69%] xl:h-[75%] xl:px-12 px-6 py-1">
       {/* Header Section */}
       <img
-        className="absolute w-[450px] h-[840px]  lg:w-[870px] lg:h-[940px] lg:left-[165px] lg:mt-[-6px] xl:w-[1090px] xl:h-[1090px] xl:left-[160px] bg-cover opacity-90"
+        className="absolute w-[450px] h-[840px]  lg:w-[870px] lg:h-[940px] lg:left-[165px] lg:mt-[-6px] xl:w-[1090px] xl:h-[1090px] xl:left-[185px] bg-cover opacity-90"
         src={Circle}
         alt="/"
       />
