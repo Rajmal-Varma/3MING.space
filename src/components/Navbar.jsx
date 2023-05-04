@@ -1,4 +1,4 @@
-import Logo from '../assets/3ming_logo.jpg'
+import Logo from '../assets/3ming_logo.png'
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 
@@ -14,9 +14,10 @@ import { FaBars, FaTimes } from "react-icons/fa";
    
    
      return (
-       <div className=" w-full h-[102px] flex justify-between items-center px-6 bg-[#000000] text-white   ">
+       <div className=" w-full h-[88px] flex justify-between items-center p-4 bg-[#141414] text-white   ">
        
              {/* Hamburger */}
+<<<<<<< HEAD
          <div onClick={handleClick} className="cursor-pointer z-10 justify-between hidden">
            {!nav ? <FaBars size={40} /> : <FaTimes size={30} />}
          </div>
@@ -31,6 +32,23 @@ import { FaBars, FaTimes } from "react-icons/fa";
            <li className=" mx-6  text-lg ">Stream</li>
            <li className=" mx-6  text-lg ">Promote</li>
            <li className=" mx-16 text-lg ">Blog</li>
+=======
+         <div onClick={handleClick} className="md:hidden cursor-pointer z-30 md:justify-between ">
+           {!nav ? <FaBars size={30} /> : <FaTimes size={30} />}
+         </div>
+         <div>
+          <img src={Logo} alt="LogoImage" style={{width:'220px' }} className="xl:ml-4 mr-20 pr-12 xl:mr-0 xl:pr-0 "/>
+         </div>
+         
+         {/* Menu */}
+   
+         <ul className="hidden md:flex lg:text-xl  justify-between mx-1  font-medium  cursor-pointer">
+           <li className=" mx-6   text-2xl ">Home</li>
+           <li className=" mx-6   text-2xl">About</li>
+           <li className=" mx-6   text-2xl ">Stream</li>
+           <li className=" mx-6   text-2xl">Promote</li>
+           <li className=" mx-6  text-2xl">Blog</li>
+>>>>>>> 1e9cc9812cb5fb717aed5a72d78c3b499ab194c9
          </ul>
       
 
@@ -42,7 +60,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
            className={
              !nav
                ? "hidden"
-               : " top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
+               : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center z-20"
            }
          >
            <li className="py-6 text-4xl">Home</li>

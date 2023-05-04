@@ -10,9 +10,9 @@ const StreamPage = () => {
   return (
     <div>
       <Navbar/>
-        <div className=" w-full h-full px-4 py-10" style={{backgroundColor: '#1b1818'}}>
+        <div className=" w-[99vw] mx-auto h-[85%] px-4 py-2" style={{backgroundColor: '#1b1818'}}>
 
-      <div className="flex items-start xl:items-center flex-col  xl:w-[1500px] justify-center mt-12 md:items-center">
+      <div className="flex items-start xl:items-center flex-col  xl:w-[1500px] justify-center md:items-center">
         <h1 className="bg-gradient-to-r from-lime-500 via-blue-500  to-rose-500 bg-clip-text text-transparent text-6xl font-[800] py-4 my-2">
           Coming Soon
         </h1>
@@ -22,9 +22,10 @@ const StreamPage = () => {
         </p>
       </div>
 
+        {/* Images Grid */}
       <div className="grid xl:grid-cols-4 xl:ml-14 mt-6 md:grid-cols-2">
 
-        <div className="order-4 xl:order-1 ml-2 md:order-1">
+        <div className="order-1 ml-2 md:order-1">
           <h1 className=" animate-text bg-gradient-to-r from-lime-500 via-purple-500 to-rose-500 bg-clip-text text-transparent text-[85px] font-bold">
             Play.
             <br /> Watch.
@@ -36,6 +37,7 @@ const StreamPage = () => {
           <img src={Imag1} alt="" className="xl:w-[1010px] w-[480px] md:w-[580px]" />
         </div>
 
+          {/* Earning Section Image */}
         <div className="xl:col-span-2 xl:mt-[-190px] rounded-2xl order-3 mt-10">
           <img
             src={Imag2}
@@ -55,6 +57,7 @@ const StreamPage = () => {
           />
         </div>
 
+          {/* list */}
         <div className="xl:col-span-2 xl:w-[770px] xl:ml-[-110px] my-8 ml-10 order-5 md:col-span-2">
           <ul className=" text-white text-3xl font-medium list-disc">
             <li className=" pb-8">

@@ -56,24 +56,22 @@ const About = () => {
       <Headline />
       <Navbar />
     
-    <div className="about">
+    <div className="w-full mx-auto h-[70%] xl:h-[75%] px-4 py-1">
       {/* Header Section */}
       <img
-        className=" w-[1545px] h-[1046px] top-[40px] left-[185px] sm:w-[700px] sm:h-[850px] sm:top-[2px] sm:left-[206px] md:w-[600px] md:h-[1040px]  md:top-[2px] md:left-[102px] xl:w-[730px] xl:h-[1050px] xl:top-[10px] xl:left-[140px]"
+        className="absolute w-[450px] h-[840px]  lg:w-[870px] lg:h-[940px] lg:left-[165px] lg:mt-[-6px] xl:w-[1090px] xl:h-[1090px] xl:left-[160px] bg-cover opacity-90"
         src={Circle}
         alt="/"
       />
       {/* About Description */}
-      <div className="absolute flex flex-col z-10 top-[55%] mx-4 px-4">
-        <h1 className="text-[50px] text-white uppercase font-bold m-2 md:text-4xl lg:text-[32px]">
+      <div className=" flex flex-col">
+        <h1 className="text-4xl lg:text-[2.75rem] xl:text-[3.4rem] xl:mt-2 text-white uppercase font-bold py-4 px-1 z-10">
           Unlock the power of <span className="text-indigo-700">WEB3 </span>
            Streaming
         </h1>
-        <p className="text-white w-[800px] px-2 py-4 my-4 text-3xl font-medium md:text-2xl md:w-[640px] lg:w-[680px] lg:text-2xl">
-          3MING will be a web3 games streaming platform.
-          <br />
-          Where we allow creators to stream web3 games.
-          <br />
+        <p className="text-white px-1 py-2  text-lg lg:w-[690px] lg:text-3xl xl:text-[2.3rem] xl:w-[840px] xl:leading-10 font-medium z-10">
+          3MING will be a web3 games streaming platform. <br />
+          Where we allow creators to stream web3 games. <br />
           3MING will help Creators to establish there presence in web3 gaming community and build there own virtual gaming communities.
         </p>
       </div>
